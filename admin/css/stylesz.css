@@ -1,0 +1,90 @@
+*{padding:0; margin:0; font-family:Verdana, Geneva, sans-serif}
+body{background:#400040; padding:1%; box-sizing:border-box !important}
+
+#login{background:#228B22; padding:1% 1% 1% 1%; box-sizing:border-box; width:50%; margin:auto !important}
+#login h3{background:#008000; text-align:center; height:50px; line-height:50px; margin-bottom:2%; color:#fff;}
+#login table{width:100%;}
+#login table tr td input{width:100%; height:30px; outline:none !important; padding-left:5%; color: #008000; border-radius: 20px; box-sizing:border-box; padding-right:2%;}
+
+#login_btn{width:50%; height:35px; background:none; outline:none; border:2px solid #fff; border-radius:3px; margin-top:2%; color:#fff}
+#login_btn:hover{background:#008000; cursor:pointer}
+
+#header{margin-top:10px; border-radius:3px; width:100%; height:50px; background:#800080}
+#header h1{width:100%; height:50px; line-height:50px; padding:0% 1% 0% 1%; color:#fff; font-size:20px}
+#header h1 b{text-shadow:1px 1px 1px #ccc}
+#header h1 b span{color:#400040 !important}
+#header h1 label{margin-left:70% !important;}
+#header h1 label a{text-decoration:none; color:#fff; font-weight:normal; font-size:16px;}
+
+#main_part{padding:2%; box-sizing:border-box}
+
+#part{width:29%; height:120px; border-radius:3px; float:left; margin:2% 2% 2% 2%}
+#part h4{font-size:14px; color:#fff; width:60%; height:90px; float:left; font-weight:normal; padding:8% 4% 4% 8%; box-sizing:border-box}
+#part h2{color:#fff; width:40%; height:90px; float:left; padding:8% 4% 4% 8%; box-sizing:border-box}
+#part h2 i{font-size:45px;}
+#part p{width:100%; height:30px; text-align:center; line-height:30px}
+#part p a{text-decoration:none; color:#fff; font-size:12px; display:block}
+
+#bodyleft{float:left; border-radius:3px; width:24%; height:570px; overflow:auto; background:#400040; margin:20px 10px 10px 0px}
+#bodyleft h3{font-size:12px; padding-left:5%; box-sizing:border-box; border-radius:3px; height:40px; line-height:40px; background:#800080; color:#fff}
+#bodyleft ul{margin-top:10px; margin-bottom:10px; list-style-type:none}
+#bodyleft ul li{margin-bottom:10px; border-radius:3px; height:30px; line-height:30px}
+#bodyleft ul li a{font-size:12px; display:block; text-decoration:none; color:#fff; padding-left:3%;}
+#bodyleft ul li:hover{background:#800080}
+
+#bodyleft::-webkit-scrollbar{background-color:#800080; height:20px;}
+#bodyleft::-webkit-scrollbar-thumb{background-color:#400040; border-radius:3px; border:3px solid #800080}
+#bodyleft::-webkit-scrollbar-button:horizontal:increment{background:#400040; border:2px solid #800080}
+#bodyleft::-webkit-scrollbar-button:horizontal:decrement{background:#400040; border:2px solid #800080}
+#bodyleft::-webkit-scrollbar-button:vertical:increment{background:#400040; border:2px solid #800080}
+#bodyleft::-webkit-scrollbar-button:vertical:decrement{background:#400040; border:2px solid #800080}
+
+#scroll{height:400px; overflow:auto}
+
+#search{width:100%; padding:1%; box-sizing:border-box}
+#search input{width:74%; padding-left:2%; box-sizing:border-box; height:30px; font-size:12px; outline:none; border:2px solid #400040}
+#search button{width:25% !important; height:30px !important; margin-left:-1% !important;}
+#search button:hover{cursor:pointer}
+
+#bodyright{padding-bottom:2%; background:#800080; margin:20px 0px 10px 0px; float:left; border-radius:3px; width:74.8%; min-height:500px;}
+#bodyright h3{border-bottom:2px solid #400040; text-align:center; border-radius:3px; height:40px; line-height:40px; background:#800080; color:#fff}
+#bodyright form table{width:95%; margin:auto; margin-top:10px;}
+#bodyright form table tr th{padding:0% 2% 0% 2%; box-sizing:border-box; font-size:14px; color:#fff; text-align:left; background:#400040; height:40px; }
+#bodyright form table tr td{font-size:12px; padding-left:3%; width:50%; height:35px; color:#fff;}
+#bodyright form table tr td input{padding-left:2%; width:100%; height:30px; border-radius:3px; border:1px solid #fff}
+#bodyright form table tr td select{padding-left:2%; width:100%; height:30px; border-radius:3px; border:1px solid #fff}
+#bodyright form table tr td a{text-decoration:none; color:#fff}
+#bodyright form button{margin-top:20px; height:30px; color:#fff; border-radius:3px; width:200px; background:#800080; border:2px solid #400040}
+#bodyright form button:hover{background:#400040}
+
+#bodyright::-webkit-scrollbar{background-color:#800080; height:20px;}
+#bodyright::-webkit-scrollbar-thumb{background-color:#400040; border-radius:3px; border:3px solid #800080}
+#bodyright::-webkit-scrollbar-button:horizontal:increment{background:#400040; border:2px solid #800080}
+#bodyright::-webkit-scrollbar-button:horizontal:decrement{background:#400040; border:2px solid #800080}
+#bodyright::-webkit-scrollbar-button:vertical:increment{background:#400040; border:2px solid #800080}
+#bodyright::-webkit-scrollbar-button:vertical:decrement{background:#400040; border:2px solid #800080}
+
+#add_cat{margin-top:20px; border-top:2px solid #400040;}
+.scroll{overflow-x:scroll; height:450px; overflow-y:scroll}
+.scroll form table tr th{text-align:center !important; padding:0% !important; background:#400040 !important; font-size:14px !important;}
+.scroll form table tr td{padding-left:2% !important; min-width:100px; height:35px; font-size:12px;}
+.scroll form table tr td img{height:30px; width:30px}
+
+.scroll::-webkit-scrollbar{background-color:#800080; height:20px;}
+.scroll::-webkit-scrollbar-thumb{background-color:#400040; border-radius:3px; border:3px solid #800080}
+.scroll::-webkit-scrollbar-button:horizontal:increment{background:#400040; border:2px solid #800080}
+.scroll::-webkit-scrollbar-button:horizontal:decrement{background:#400040; border:2px solid #800080}
+.scroll::-webkit-scrollbar-button:vertical:increment{background:#400040; border:2px solid #800080}
+.scroll::-webkit-scrollbar-button:vertical:decrement{background:#400040; border:2px solid #800080}
+
+#invoice{width:100%; background:#fff;}
+#invoice h3{background:#800080 !important; height:50px; color:#fff; line-height:50px; padding-left:3%; box-sizing:border-box}
+#invoice div{padding:1%; box-sizing:border-box; float:left; width:33.3%; margin-top:1%}
+#invoice div h4{font-size:20px; color:#333; margin-bottom:2% !important}
+#invoice div p{margin-top:2%; margin-bottom:2%}
+#invoice table{width:98%; margin:auto !important; margin-top:2% !important}
+#invoice table tr th{background:#ccc; text-align:center !important; width:25% !important; height:50px !important;}
+#invoice table tr td{border-bottom:2px solid #ccc; text-align:center !important; width:25% !important; height:35px !important; padding-bottom:2% !important; padding-top:2% !important;}
+
+#invoice button{float:right; margin-top:20px; height:30px; color:#000; border-radius:3px; width:10%; background:none; border:2px solid #400040}
+#invoice button:hover{background:#400040; color:#fff; cursor:pointer}

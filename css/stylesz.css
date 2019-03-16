@@ -1,0 +1,179 @@
+*{margin:0; padding:0; font-family:Verdana, Geneva, sans-serif}
+body{background:#e6e6e6}
+#header{background:#020202; height:110px; width:100%}
+
+#logo{width:20%; height:110px; float:left}
+#logo img{width:40%; height:100px; margin-top:5px; margin-left:25px; border-radius: 50px; animation: logo alternate infinite 5s;}
+@keyframes logo{0%{transform: rotate(0deg);} 50%{transform: rotate(-80deg);} 100%{transform: rotate(0deg);} }
+	
+	
+	
+
+#link{width:80%; height:50px; float:left}
+#link ul{list-style-type:none; margin-right:20px}
+#link ul li{float:right; margin-left:20px; line-height:30px; width:15%; padding-left: 1%; padding-right: 1%; text-align:center}
+#link ul li:hover{background: rgba(0, 41, 7, 0.9);}
+#link ul li a{text-decoration:none; font-size:14px; color:#fff; display:block}
+#link ul li form{z-index:999 !important; width:40%; padding:2%; border-radius: 5px; box-sizing:border-box; display:none; position:absolute; background:rgba(0, 41, 7, 0.9); margin-left:-347px;}
+#link ul li form table{width:100%;}
+#link ul li form table tr td{color:#fff; width:48%; height:35px}
+#link ul li form table tr td input{padding-left:5%; border-radius:3px; width:100%; height:30px; outline:none; border:1px solid #2BA262;}
+#link ul li form table tr td select{padding-left:5%; border-radius:3px; width:100%; height:30px; outline:none; border:1px solid #008000;}
+#link ul li form table tr td textarea{padding-left:5%; padding-top:5%; border-radius:3px; width:100%; height:60px; outline:none; border:1px solid #228B22;}
+#link ul li form input{border-radius:3px; color:#fff; height:35px; outline:none; border:1px solid #008001; width:48%; background:#228B22;}
+#link ul li form input:hover{background:#008000; cursor:pointer}
+#link ul li:hover form{display:block;}
+
+#acct ul li:hover a{background:#228B22; border-top:3px solid #fff}
+
+#login{margin-left:-346px !important;}
+
+#link ul li ul{display:none}
+#link ul li ul li{width:100%; box-sizing:border-box; text-align:left !important}
+#link ul li ul li a{display:block; padding-left:5%;  font-size:12px}
+#link ul li:hover ul{margin-left:-134px; background:#008000; display:block; width:25%; position:absolute; z-index:1000}
+#link ul li ul li:hover{background:#008000;}
+
+#search form input{border-bottom-left-radius:3px;; border-top-left-radius:3px; border-width:0px; width:58%; height:35px; padding-left:2%; outline:none}
+
+#search_btn{border-bottom-right-radius:3px; border-top-right-radius:3px; margin-left:-10px; border-width:0px; width:10%; height:35px; background:#008001; color:#fff; font-weight:bold}
+
+#cart_btn{border-radius:3px; border-width:0px; width:10%; height:35px; background:#008001; color:#fff; font-weight:bold}
+#cart_btn a{text-decoration:none; color:#fff; display:block}
+
+#cart{min-height:480px; background:#fff}
+.cart{width:100%; padding:1%; box-sizing:border-box; background:#fff;}
+.cart form table{width:100%;}
+.cart form table tr th{font-size:14px; background:#e6e6e6; height:40px; color:#666; text-align:left; padding-left:1%; }
+.cart form table tr td{font-size:14px; height:60px; padding-left:1.2%}
+.cart form table tr td img{width:50px; height:50px}
+.cart form table tr td input[type=text]{padding-left:1%; width:12%; height:30px;}
+.cart form table tr td input[type=submit]{background:#fff; color:#000; width:20%; height:30px; border:1px solid #008000}
+.cart form table tr td input[type=submit]:hover{background:#008000; color:#fff; cursor:pointer}
+
+#navbar{overflow:hidden; width:100%; height:40px; background:#008000;}
+#navbar ul{list-style-type:none; padding-left:2%;}
+#navbar ul li{padding:1% !important; float:left; box-sizing:border-box}
+#navbar ul li a{text-decoration:none; color:#fff; font-size:14px}
+#navbar ul li:hover{background:#008001; border-top:3px solid #fff}
+
+#navbar li ul{display:none !important}
+#navbar li:hover ul{box-shadow:5px 5px 5px #2e2e2e; padding-left:0%; margin-left:-10px; background:#228B22; margin-top:8px; display:block !important; width:200px; z-index:999; position:absolute}
+#navbar li ul li{padding-left:5% !important; float:none; height:35px; line-height:35px}
+#navbar li ul li a{display:block}
+
+#bodyleft{padding:1%; box-sizing:border-box; border-radius:3px; width:72%; background:#fff; margin:1%; float:left}
+#bodyleft h2{text-shadow:5px 5px 5px #000; border-top-left-radius:3px; border-top-right-radius:3px; line-height:40px; background:#008000; height:40px; text-align:center; color:#fff}
+#bodyleft ul{list-style-type:none; padding-bottom:1.5%;}
+#bodyleft ul li{border-radius:3px; margin-top:10px; margin-left:1%; float:left; width:31%; min-height:350px; border:3px solid #e6e6e6}
+#bodyleft ul li a{text-decoration:none; color:#2e2e2e; display:block}
+#bodyleft ul li a h4{overflow:hidden; white-space:nowrap; text-overflow:ellipsis; margin-top:5px; text-align:center; font-size:12px;}
+#bodyleft ul li a img{width:100%; height:280px; margin-bottom:10px;}
+#pro_btn{width:30%; height:30px; background:#fff; border-radius:3px; border:1px solid #008000}
+#pro_btn:hover{background:#008000; cursor:pointer; color:#fff}
+#pro_btn:hover i{color:#fff !important}
+#pro_btn:hover a i{color:#fff !important}
+#bodyleft h3{box-shadow:3px 3px 3px #000; text-shadow:5px 5px 5px #000; line-height:40px; border-radius:3px; height:40px; background:#008000; color:#fff; padding-left:5%}
+
+#pro_img{width:40%; padding:1%; box-sizing:border-box; background:#fff; float:left}
+#pro_img img{width:100%; height:450px;}
+#pro_img ul{list-style-type:none}
+#pro_img ul li{float:left}
+#pro_img ul li img{width:80px; height:80px; margin-left:10px;}
+
+#pro_features{padding:1%; box-sizing:border-box; width:60%; height:550px; background:#fff; float:left}
+#pro_features h3{margin-top:20px; text-align:left; height:35px; border-bottom:1px solid #e6e6e6; font-weight:normal}
+#pro_features ul{margin-top:15px; margin-bottom:20px; width:50%; float:left;}
+#pro_features ul li{margin-left:10px; height:25px; font-size:12px !important}
+#pro_features h4{margin-bottom:10px; color:#F00; text-decoration:line-through}
+#buy_now{border-radius:3px; width:180px; height:35px; background:#fff; border:1px solid #008000}
+#buy_now:hover{background:#008000; color:#fff; cursor:pointer}
+#buy_now a{text-decoration:none; color:#000; display:block}
+#buy_now:hover a{color:#fff}
+#keystrok{margin-top:10px; font-weight:bold; font-size:12px; margin-right:1%; float:left; width:30%}
+
+#share{width:100%; padding:1%; box-sizing:border-box}
+#share div{line-height:35px; width:23%; height:35px; margin-left:0.5%; margin-right:0.5%; float:left;}
+#share div a{text-decoration:none; color:#fff; font-size:12px}
+#share div:hover a{display:block}
+
+#gp{background:#D34836;}
+#f{background:#3b5998}
+#t{background:#4099FF}
+#wp{background:#34af23;}
+
+#sim_pro{padding-top:20px; background:#fff; width:100%; height:350px; padding-bottom:10px;}
+#sim_pro h3{background:#008000; color:#fff; height:40px; line-height:40px; padding-left:2%}
+#sim_pro ul{list-style-type:none}
+#sim_pro ul li{padding:0.5%; border:1px solid #fff; margin-top:10px; width:165px; float:left; margin-left:20px;}
+#sim_pro ul li:hover{border:1px solid #008000; border-radius:3px; }
+#sim_pro ul li a img{width:165px; height:230px;}
+#sim_pro ul li a{text-decoration:none; color:#000}
+#sim_pro ul li a p{text-align:center}
+
+#slider{width:100%; height:350px;}
+#slider img{width:100%; height:300px; border-bottom-left-radius:3px; border-bottom-right-radius:3px; }
+
+#bodyright{border-radius:3px; width:25%; background:#fff; margin:1% 1% 1% 0%; float:left}
+#bodyright h3{border-top-left-radius:3px; border-top-right-radius:3px; line-height:40px; background:#008000; height:40px; text-align:center; color:#fff}
+#bodyright ul{list-style-type:none}
+#bodyright ul li a img{width:100%; height:150px}
+
+.bodyright ul{list-style-type:none}
+.bodyright ul li{height:35px; width:100%; line-height:35px; padding-left:5%}
+.bodyright ul li a{text-decoration:none; color:#2e2e2e; font-weight:bold; font-size:14px;}
+.bodyright ul li a:hover{text-decoration:underline; color:#000;}
+
+#user_left{margin:1%; width:75%; height:520px; background:#fff; float:left}
+#user_left h3{border-top-left-radius:3px; border-top-right-radius:3px; line-height:40px; background:#008000; height:40px; text-align:center; color:#fff}
+#user_left form table{width:98%; margin:2%;}
+#user_left form table tr td{width:50%; height:40px}
+#user_left form table tr td input{width:98%; height:35px; outline:none; padding-left:4%; box-sizing:border-box}
+#user_left form table tr td input[type=file]{width:98%; height:35px; outline:none; padding-left:4%; box-sizing:border-box}
+#user_left form input[type=submit]{width:20%; height:40px; background:#fff; border:2px solid #008000; border-radius:3px}
+#user_left form input[type=submit]:hover{cursor:pointer; transition:all 0.2s; background:#008000; color:#fff}
+
+.myorder{width:100%; overflow-x:scroll; padding:1%; box-sizing:border-box; background:#fff; height:480px;}
+.myorder table{width:160% !important}
+.myorder table tr th{font-size:14px; background:#e6e6e6; height:40px; color:#666; text-align:left; padding-left:1%; }
+.myorder table tr td{font-size:14px; height:60px; width:10% !important; padding-left:1.2%;}
+.myorder table tr td img{width:50px; height:50px}
+.myorder table tr td input[type=text]{padding-left:1%; width:22% !important; height:30px;}
+.myorder table tr td input[type=submit]{background:#fff; color:#000; width:30% !important; height:35px !important; border:1px solid #008000}
+.myorder table tr td input[type=submit]:hover{background:#008000; color:#fff; cursor:pointer}
+
+.mycart{width:100% !important; overflow-x:scroll; padding:1%; box-sizing:border-box; background:#fff; height:480px;}
+.mycart table{width:120% !important}
+.mycart table tr th{font-size:14px; background:#e6e6e6; height:40px; width:20% !important; color:#666; text-align:left; padding-left:1%; width:10% !important;}
+.mycart table tr td{font-size:14px; height:60px; padding-left:1.2%; width:20% !important;}
+.mycart table tr td img{width:50px; height:50px}
+.mycart table tr td input[type=text]{padding-left:1%; width:22% !important; height:30px;}
+.mycart table tr td input[type=submit]{background:#fff; color:#000; width:30% !important; height:35px !important; border:1px solid #008000}
+.mycart table tr td input[type=submit]:hover{background:#008000; color:#fff; cursor:pointer}
+
+#user_right{margin:1% 1% 1% 0%; width:22%; height:500px; background:#fff; float:left}
+#user_right h3{border-top-left-radius:3px; border-top-right-radius:3px; line-height:40px; background:#008000; height:40px; text-align:center; color:#fff}
+#user_right img{margin:3%; width:94%; height:200px}
+#user_right ul{list-style-type:none}
+#user_right ul li{width:100%; padding-left:5%; box-sizing:border-box; height:35px; line-height:35px}
+#user_right ul li:hover{ background:#008000}
+#user_right ul li:hover a{color:#fff}
+#user_right ul li a{display:block; text-decoration:none; color:#2e2e2e; font-weight:bold}
+
+#checkout_user{padding:2%; box-sizing:border-box; width:100%; background:#fff}
+#checkout_user h2{width:100%; height:40px; font-size:18px; padding-left:2%; box-sizing:border-box; margin-top:10px; margin-bottom:10px; border-radius:3px; line-height:40px; color:#fff; background:#008000}
+
+#checkout_user_left{width:20%; padding:1%; box-sizing:border-box; border:2px solid #008000; border-radius:3px; float:left; margin-bottom:10px !important;}
+#checkout_user_left h3{font-weight:normal; color:#333; margin-bottom:10px;}
+#checkout_user_left p{font-size:14px; margin-top:5px;}
+
+#checkout_user_right{margin-left:2%; width:78%; padding:1%; box-sizing:border-box; border:2px solid #008000; border-radius:3px; float:left; margin-bottom:10px !important;}
+#checkout_user_right form table{width:100%;}
+#checkout_user_right form table tr td{width:50%; height:30px; font-size:14px;}
+#checkout_user_right form table tr td input[type=text]{width:100%; height:30px; outline:none; border-radius:3px; padding-left:2%; box-sizing:border-box}
+#checkout_user_right form table tr td input[type=text]:hover{border:2px solid #008000}
+#checkout_user_right form input[type=submit]{margin-top:10px; width:20%; height:35px; background:#fff; border:2px solid #008000; border-radius:3px}
+#checkout_user_right form input[type=submit]:hover{cursor:pointer; background:#008000; color:#fff; transition:all 0.3s}
+
+#footer{width:100%; height:35px; background:#008000}
+#footer h4{text-align:center; color:#fff; line-height:35px; font-size: 12px;}

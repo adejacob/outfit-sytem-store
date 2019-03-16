@@ -1,0 +1,1 @@
+<?php include("inc/function.php"); echo get_state(); ?>
